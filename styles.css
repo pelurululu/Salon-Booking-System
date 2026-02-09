@@ -1,0 +1,372 @@
+body 
+{
+    margin: 0px;
+    background-color: #F5F5F5;
+    height: 1800px;
+}
+
+header 
+{
+    background-color: white;
+    border-bottom: 2px solid;
+    border-color: #F5ECE0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+img 
+{
+    height: 30px;
+    width: 30px;
+    right: 100px;
+    position: relative;
+    left: 90px
+}
+
+h1 
+{
+    
+    color: #410445 ;
+    font-family: "Poppins";
+    font-size: 23px;
+    font-weight: 800;
+    margin: 0;
+    position: relative;
+    top: 3px;
+    left: 90px
+    
+   
+}
+
+a
+{
+    color: #410445;
+    text-decoration: none;
+}
+
+ul 
+{
+    list-style: none; 
+    padding: 0;        
+    margin: 0;          
+    display: flex;      
+    gap: 30px;
+    position: relative;
+    left: 1030px;
+    top: 3px;
+    font-family: "Poppins";
+    font-size: 15;
+    color: #410445;
+
+}
+
+h2 
+{
+    font-family: "Poppins";
+    font-size: large;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -70px;
+    left: -10;
+    text-decoration: underline;
+}
+
+p
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    
+}
+
+.panel 
+{
+    border: 2px solid white;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: white;
+    height: 1200px;
+    width: 500px;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nama
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    
+}
+
+#txtnama
+{
+    border-radius: 5px;
+    border: #E2DFD0 solid;
+    border-width: 2px;
+    height: 30px;
+    width: 500px;
+}
+
+#nombor
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+#txtnum
+{
+    border-radius: 5px;
+    border: #E2DFD0 solid;
+    border-width: 2px;
+    height: 30px;
+    width: 500px;
+    position: relative;
+    top: 15px;
+}
+
+#lbtarikh
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#txtdate
+{
+    font-family: "Poppins";
+    font-size: small;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: #E2DFD0 solid;
+    border-width: 2px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+}
+
+#lbmasa
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+#txttime
+{
+    font-family: "Poppins";
+    font-size: small;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: #E2DFD0 solid;
+    border-width: 2px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 30px; 
+    left: 20px;
+}
+
+#lbStylist
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+#dropStylist
+{
+    font-family: "Poppins";
+    font-size: small;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: #E2DFD0 solid;
+    border-width: 2px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 0px;
+   
+}
+
+#lbServices
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 45px;
+}
+
+#lbHaircut, #lbManicure, #lbHairColoring, #lbPedicure
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 60px;
+}
+
+#haircut, #haircoloring, #manicure, #pedicure
+{
+    position: relative;
+    left: 20px;
+    top: 63px;
+}
+
+#lbGender
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 190px;
+    top: 15px;
+}
+
+#dropGender
+{
+    font-family: "Poppins";
+    font-size: small;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: #E2DFD0 solid;
+    border-width: 2px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+#submit
+{
+    font-family: "Poppins";
+    font-size: small;
+    background-color: #410445;
+    color: white;
+    border-radius: 10px;
+    border-width:0px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    top: 110px;
+    left: 190px;
+    
+}
+
+
+#SummaryTitle
+{
+    font-family: "Poppins";
+    font-size: large;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    text-decoration: none;
+}
+
+#summaryinfo
+{
+    font-family: "Poppins";
+    font-size: smaller;
+    color: black;
+    text-align: left;
+    position: relative;
+    top: 170px;
+}
+
+.summary-box {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+    margin: 10px 0;
+    position: relative;
+    top: 1000px;
+}
+
+.error-box
+{
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    color: red;
+    text-align: left;
+    line-height: 1.6;
+    margin: 10px 0;
+    position: relative;
+    top: 950px;
+    text-align: center;
+}
+
+#confirm
+{
+    font-family: "Poppins";
+    font-size: small;
+    background-color: #410445;
+    color: white;
+    border-radius: 10px;
+    border-width:0px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    top: 650px;
+    left: 190px;
+    
+}
+
+.box
+{
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+    margin: 10px 0;
+    position: relative;
+    top: 200px;
+}
+

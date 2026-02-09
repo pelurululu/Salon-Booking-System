@@ -12,3 +12,7 @@ This project demonstrates front-end and back-end integration using HTML, CSS, PH
 - Backend: PHP
 - Database: MySQL
 - Other tools: XAMPP
+
+## Screenshots / Demo
+![Uploading image.png…]()
+

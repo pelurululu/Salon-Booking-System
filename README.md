@@ -6,3 +6,9 @@ This project demonstrates front-end and back-end integration using HTML, CSS, PH
 - Users can view available services
 - Book appointments online
 - Generate appointment receipts
+
+## Technologies Used
+- Frontend: HTML, CSS
+- Backend: PHP
+- Database: MySQL
+- Other tools: XAMPP
